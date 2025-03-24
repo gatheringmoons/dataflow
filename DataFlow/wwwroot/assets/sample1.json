@@ -1,0 +1,52 @@
+[
+  {
+    "Text": "Automotive",
+    "Total": 130,
+    "Index": 1
+  },
+  {
+    "Text": "Beauty",
+    "Total": 85,
+    "Index": 2
+  },
+  {
+    "Text": "Books",
+    "Total": 75,
+    "Index": 3
+  },
+  {
+    "Text": "Clothing",
+    "Total": 95,
+    "Index": 4
+  },
+  {
+    "Text": "Electronics",
+    "Total": 120,
+    "Index": 5
+  },
+  {
+    "Text": "Groceries",
+    "Total": 150,
+    "Index": 6
+  },
+  {
+    "Text": "Home & Garden",
+    "Total": 140,
+    "Index": 7
+  },
+  {
+    "Text": "Music",
+    "Total": 700,
+    "Index": 8
+  },
+  {
+    "Text": "Sports",
+    "Total": 110,
+    "Index": 9
+  },
+  {
+    "Text": "Toys",
+    "Total": 60,
+    "Index": 10
+  }
+]

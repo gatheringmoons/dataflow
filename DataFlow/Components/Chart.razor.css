@@ -1,0 +1,22 @@
+﻿.data-flow {
+    position: relative;
+    width: 410px;
+    height: 280px;
+    border: 1px solid #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.from-node {
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    z-index:100
+}

@@ -1,0 +1,6 @@
+﻿<div class="data-flow-box data-flow-box-@Item.Index" @onclick="OnBoxClick">
+    <div class="d-flex justify-content-between">
+        <div>@Item.Text</div>
+        <div>@(Item.Total?.ToString("N0"))</div>
+    </div>
+</div>

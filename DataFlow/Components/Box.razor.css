@@ -1,0 +1,45 @@
+﻿.data-flow-box {
+    position:absolute;
+    width: 140px;
+    height:24px;
+    border: 1px solid #000000;
+    padding: 2px 4px 2px 4px;
+    z-index:100;
+    font-size:12px;
+    left:260px;
+    background-color:white
+}
+.data-flow-box:hover {
+    cursor:pointer;
+    background-color:yellow
+}
+.data-flow-box-1 {
+    top:13px
+}
+.data-flow-box-2 {
+    top: 39px
+}
+.data-flow-box-3 {
+    top: 65px
+}
+.data-flow-box-4 {
+    top: 91px
+}
+.data-flow-box-5 {
+    top: 117px
+}
+.data-flow-box-6 {
+    top: 143px
+}
+.data-flow-box-7 {
+    top: 169px
+}
+.data-flow-box-8 {
+    top: 195px
+}
+.data-flow-box-9 {
+    top: 221px
+}
+.data-flow-box-10 {
+    top: 247px
+}

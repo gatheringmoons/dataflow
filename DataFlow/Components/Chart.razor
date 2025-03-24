@@ -1,0 +1,18 @@
+﻿@if(Items is not null)
+{    
+    <div class="data-flow">
+        @foreach(var item in Items)
+        {
+            if (item.Total.HasValue && item.Total.Value > 0)
+            {
+                <Line IsLoading="@IsLoading" Index="@item.Index" StrokeWidth="@GetStrokeWidth(item)" StrokeColor="@item.StrokeColor" ZIndex="@item.ZIndex" />
+            }
+            <Box Item="@item" OnBoxClicked="OnBoxClick" />
+        }
+        <div class="from-node"><i class="fa-solid fa-house fa-2xl"></i></div>
+        @if (IsLoading)
+        {
+            <i class="fa-solid fa-spinner fa-spin fa-lg"></i>
+        }
+    </div>    
+}

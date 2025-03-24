@@ -1,0 +1,44 @@
+[
+  {
+    "Text": "Automotive",
+    "Total": 130,
+    "Index": 2
+  },
+  {
+    "Text": "Beauty",
+    "Total": 85,
+    "Index": 3
+  },
+  {
+    "Text": "Books",
+    "Total": 0,
+    "Index": 4
+  },
+  {
+    "Text": "Electronics",
+    "Total": 120,
+    "Index": 5
+  },
+  {
+    "Text": "Groceries",
+    "Total": 150,
+    "Index": 6
+  },
+  {
+    "Text": "Music",
+    "Total": 700,
+    "Index": 7,
+    "StrokeColor": "Red",
+    "ZIndex":  10
+  },
+  {
+    "Text": "Sports",
+    "Total": 110,
+    "Index": 8
+  },
+  {
+    "Text": "Toys",
+    "Total": 60,
+    "Index": 9
+  }
+]

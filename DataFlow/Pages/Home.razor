@@ -1,7 +1,50 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Data Flow Sample</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="container">
 
-Welcome to your new app.
+    <h1>Data Flow Sample</h1>
+
+    <p>Showing how a SVN image can be converted into a Blazor component.</p>
+
+    <div class="row g-2">
+        <div class="col">
+            <div class="d-flex justify-content-center">
+
+                <Chart IsLoading="@chartIsLoading" Items="@items" OnBoxClicked="OnBoxClick" />
+            </div>
+        </div>
+        <div class="col">
+            <div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="options" id="option1" value="sample1" @onchange="OnOptionChanged" checked>
+                    <label class="form-check-label" for="option1">
+                        Lots of Music
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="options" id="option2" value="sample2" @onchange="OnOptionChanged">
+                    <label class="form-check-label" for="option2">
+                        Lots of Music &amp; Toys and no Books
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="options" id="option3" value="sample3" @onchange="OnOptionChanged">
+                    <label class="form-check-label" for="option3">
+                        Eight categories with Music highlighted in Red
+                    </label>
+                </div>
+            </div>
+
+            @if (message is not null)
+            {
+                <div class="alert alert-primary mt-2" role="alert">
+                    @message
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
