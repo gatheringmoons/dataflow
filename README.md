@@ -1,17 +1,16 @@
 # Introduction 
-This sample demonstrates how to convert a SVG image to a Blazor component.
-Using a component to visually show data for up to ten categories.
+This sample demonstrates how to convert an SVG image into a Blazor component, enabling dynamic data visualisation for up to ten categories.
 
-Visual Studio sample using Blazor WebAssembly .NET 9.
+A Visual Studio 2022 sample using a .NET 9 Blazor WebAssembly Standalone App.
 
 # Creating SVG
-The original SVG image was created using Inkscape. Using the Pen Tool to create the Bezier curves.
-Save the file as a Plain SVG file to remove the Inkscape specific markup.
+The original **SVG image** was created in **Inkscape** using the **Pen Tool** to draw **Bezier curves**.
+To remove **Inkscape** specific markup, the file was saved as a **Plain SVG**.
 
 ![SVG Mockup](Media/lines-plain.png)
 
 # Data
-Using the following to define the data for each category. Data is loaded from some sample JSON files.
+Using the following class to define the properties for each category. Data is loaded from some sample JSON files.
 
 ```
     public class DataFlowItem
@@ -27,7 +26,7 @@ Using the following to define the data for each category. Data is loaded from so
 ```
 
 # Blazor Component
-The Blazor component is made up of a Chart and a Box and Line for each of the ten categories.
+The Blazor **DataFlow** component consists of a **Chart** along with a **Box** and **Line** for each of the ten categories.
 
 The SVG has been converted into the Line component.
 
@@ -52,13 +51,16 @@ The SVG has been converted into the Line component.
     </svg>
 ```
 
-For main body of SVG within Line component setting the widht and hight to 100% and preserveAspectRatio to xMinYMin.
+In the **Line component**, the main SVG body has its **width** and **height** set to 100%, with **preserveAspectRatio** set to **xMinYMin** to maintain proper scaling.
 
-The Index parameter defines which line is being drawn.
+The **Index** parameter determines which line is being drawn.
 
-The class path is being used for animation and StrokeWidth and StrokeColor parameters are being used to control line width and color.
+The **class path** is utilised for animation, while the **StrokeWidth** and **StrokeColor** parameters control the line's width and color.
 
 # Sample Screenshot
 
 ![Sample 1](Media/example.png)
 
+# Live Demo
+
+(https://witty-sand-010379403.6.azurestaticapps.net/)
