@@ -2,11 +2,13 @@
 This sample demonstrates how to convert a SVG image to a Blazor component.
 Using a component to visually show data for up to ten categories.
 
+Visual Studio sample using Blazor WebAssembly .NET 9.
+
 # Creating SVG
 The original SVG image was created using Inkscape. Using the Pen Tool to create the Bezier curves.
 Save the file as a Plain SVG file to remove the Inkscape specific markup.
 
-![SVG Mockup](media/lines-plain.png)
+![SVG Mockup](Media/lines-plain.png)
 
 # Data
 Using the following to define the data for each category. Data is loaded from some sample JSON files.
@@ -56,9 +58,7 @@ The Index parameter defines which line is being drawn.
 
 The class path is being used for animation and StrokeWidth and StrokeColor parameters are being used to control line width and color.
 
-# Final Example
+# Sample Screenshot
 
-![Sample 1](media/example.png)
+![Sample 1](Media/example.png)
 
-# Contribute
-TODO
