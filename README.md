@@ -63,4 +63,4 @@ The **class path** is utilised for animation, while the **StrokeWidth** and **St
 
 # Live Demo
 
-(https://witty-sand-010379403.6.azurestaticapps.net/)
+https://witty-sand-010379403.6.azurestaticapps.net/
